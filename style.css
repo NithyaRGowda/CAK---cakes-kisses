@@ -1,0 +1,654 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+.header_shadow{
+  width:100%;
+  background: rgb(255, 255, 255);
+  position:fixed;
+  z-index: 10;
+  top:0;
+}
+.header{
+  width: 90%;
+  margin: 0px auto;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo img{
+  width: 80px;
+}
+.header-top-box h5{
+  display: none;
+}
+.header-top-box h5{
+  font-size: 18px;
+  color:#b76e79;
+  margin-top: -8%;  
+}
+.phone span{
+  font-size: 19;
+  color:#b76e79 ;
+  margin-left: 6px;
+  font-weight: bold;   
+}
+.phone img span{
+  padding-top: 14px;  
+}
+.hamburger {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+.hamburger img {
+  width: 35px;
+}
+
+.hamburger a img:hover {
+opacity: 0.8;
+}
+.menu_bar {
+  display: none;
+}
+
+.menu_bar {
+  display: none;
+  background: rgba(255,255,255,1.0);
+  position: absolute;
+  left: -20px;
+  transition: 0.3s ease;
+  list-style-type: none;
+  z-index: 10;
+}
+
+.menu_bar.active {
+  display: block;
+}
+
+.menu_bar li {
+  margin: 0px 8px 0px 25px;
+  font-size: 20px;
+  padding: 15px 0px;
+  font-weight: 500;
+}
+
+.menu_bar li a {
+  text-decoration: none;
+  color: #b76e79;
+  padding: 20px;
+}
+
+.menu_bar li a:hover {
+  /* background-color: #fff; */
+  color: #000;
+}
+p.marquee{
+  background: #b76e79;
+  padding:5px;
+  font-weight: 800;
+  font-size:16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color:#fff;
+}
+.page-main{
+  padding-top: 39%;
+}
+
+.base{
+  margin-left: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color:#b76e79
+}
+.safety {
+  border: 1px solid #777;
+  text-align: center;
+}
+.background{
+  background: #efd9d9;
+  padding-bottom: 40px;
+  margin-top: -13px;
+  
+}
+.wrap {
+  width: 100%;
+  margin: 0px auto;
+  background-color: #f9f5f0;
+  padding-bottom: 70px;
+  
+
+}
+.courses {
+  width: 95%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.courses_heading {
+  text-align: center;
+  font-size: 28px;
+  color: #b76e79;
+  padding-top: 40px;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+
+.courses_underline {
+    width: 70px;
+    height: 4.5px;
+    background: #000;
+    color: #000;
+    display: inline-block;
+    margin: 0px 0px;
+    margin-left:50;
+
+}
+.cake_main {
+  width:80%;
+  margin:0px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cake_title {
+  width:95%;
+  margin:0px auto;
+  background:#fff;
+  padding:30px;
+  padding-bottom: 30px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.cake_title h5 {
+  font-weight: 700;
+  color:#b76e79;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+}
+.cake_title h6 {
+  font-weight: 600;
+  color:#b76e79;
+  font-size: 14px;
+  text-align: center;
+}
+
+  .cake_heading {
+    width: 92%;
+   margin: 0px auto;
+  /* display:flex; */
+  box-shadow:5px 5px 20px #ccc;
+  background:#f9f5f0;
+  padding:20px;
+  margin-top: 40px;
+  } 
+   
+  .cake1 img {
+    width: 100%;
+  }
+  h6.cake1_head{
+      margin-top:30px;
+      font-weight: 600;
+      color:#b76e79;
+      font-size: 16px;
+  }
+ .cake1_para{
+    line-height: 25px;
+    max-width:350px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#000;
+  }
+  
+  .categories-secp {
+    width: 90%;
+    margin: 0px auto;
+    background: #f9f5f0;
+    box-shadow: 5px 5px 20px #ccc;
+    border-radius: 4px;
+    padding: 40px 20px;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.title-bar-o {
+    width: 98%;
+    margin:0px auto;
+    padding-top:2%;
+    padding-bottom: 20px;
+}
+.title h2 {
+  font-size: 24px;
+  margin-top:-3%;
+  margin-bottom:3%;
+  color:#b76e79;
+  font-weight: 600;
+  }
+.candy1{
+width: 95%;
+margin: 0px auto;
+padding-bottom: 20px;
+}
+.candy{
+  display: none;
+}  
+.occasion{
+background-color: #efd9d9;
+width: 95%;
+margin: 0px auto;
+box-shadow: 5px 5px 5px #ccc;
+margin: 0px 10px;
+padding:7px;
+padding-top: 4px;
+margin-bottom: 40px;
+}
+.scoch{
+  display: flex;
+}
+.productsDetail img{
+width: 100%;
+margin: 0%; 
+padding: 10px 8px;
+}
+.productsDetail h3{
+text-align: center;
+font-size: 18px;
+color: #000;
+font-weight: bold;
+padding: 12px;
+}
+
+/*footer code*/
+.footer{
+  background-color: #f9f5f0;
+}
+.footer_width{
+  width: 90%;
+  margin: 0px auto;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top:20px;
+}
+#img_logo{
+  width:80px;
+  padding-top: 20px;
+}
+.sp-before{
+  font-size: 14px;
+}
+.email img{
+  display: none;
+}
+.kisses-cake{
+  display: none;
+}
+.kisses-occasion{
+display: none;
+}
+.kisses-stay{
+display: block;
+}
+
+.kisses{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-color: #b76e79;
+ 
+}
+
+.links{
+  line-height:35px;
+  
+}
+.links li{
+list-style-type: disc; 
+margin-left:22px
+}
+.links li a{
+  color:#000;
+  font-size: 14px;  
+
+}
+.last_footer{
+background-color: #000000;
+text-align: center;
+color: #b76e79;
+font-size: 12px;
+padding: 8px;
+margin-bottom: 0px;
+}
+@media only screen and (min-width:932px){
+  .header_shadow{
+      padding-bottom: -10px;
+  }
+  .header{
+    width: 90%;
+    margin: 0px auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width:100px;
+}
+.header-call-action{
+    display: flex;
+    justify-content: space-between;
+}
+.sell{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-left: 30px;
+}
+.header-top-box h5{
+    font-size: 18px;
+    color:#b76e79;
+    margin-top: -8%;
+    
+}
+.header-top-box h5{
+    display: block;
+}
+/* .enquiry h6{
+    display:none;
+} */
+.phone span{
+    font-size: 19;
+    color:#b76e79 ;
+    margin-left: 6px;
+    font-weight: bold;   
+}
+.phone img span{
+    padding-top: 14px;  
+}
+.page-title-wrapper{
+  margin-top: -1%;
+  margin-left: 20px;
+}
+.menu {
+  display: block;
+  margin-top:60px;
+  margin-bottom: 60px;
+}
+
+ .hamburger {
+   display: none;
+ }
+
+ .menu_bar {
+   margin-left:70px;
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   margin-top: 125px;
+   background: none;
+   transform: translateX(10%);
+   top: 0;
+   z-index: 0;
+ }
+
+ .menu_bar li{
+   margin-left: 2px;
+ }
+
+ .menu_bar li a {
+   font-size: 22px;
+   text-decoration: none;
+   padding: 7px 20px;
+   color: #b76e79;
+   transition: 0.6s ease;
+ }
+
+ .menu_bar li a:hover {
+   padding: 15px 20px;
+   background-color: #000;
+   color: #b76e79;
+   opacity: 0.8;
+ }
+ .menu_bar li a:active {
+   color: #fff;
+ }
+ .page-main{
+  padding-top:16%;
+}
+.base{
+  margin-left: 90px;
+
+ font-size: 35px;
+ font-weight: bold;
+ color:#b76e79
+}
+.safety {
+ border: 1px solid #777;
+ text-align: center;
+}
+.background{
+  background: #efd9d9;
+  padding-bottom: 60px;
+}
+.wrap {
+  width: 100%;
+  margin: 0px auto;
+  background-color: #f9f5f0;
+  padding-bottom: 70px;
+  margin-top: -13px;
+
+}
+.courses {
+  width: 95%;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.courses_heading {
+  text-align: center;
+  font-size: 38px;
+  color: #b76e79;
+  padding-top: 40px;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+}
+
+.courses_underline {
+    width: 70px;
+    height: 4.5px;
+    background: #000;
+    color: #000;
+    display: inline-block;
+    margin: 0px 0px;
+    margin-left:50;
+
+}
+.cake_main {
+  width: 95%;
+  margin: 0px auto;
+  padding-top: 40px; 
+  padding-bottom: 40px; 
+}
+
+.cake_title h5 {
+  margin-top: 20px;
+  font-size: 28px;
+}
+.cake_title h6 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cake_title{
+  width: 933px;
+  margin: 0px auto;
+  margin-top: 40px;
+
+}
+.cake_heading{
+  display: flex;
+  justify-content: space-between;
+ padding:0px;
+}
+
+h6.cake1_head{
+  text-align: left;
+  margin-left: 10px;
+  width: 350px;
+  margin-top:40px;
+  font-weight: 600;
+  color:#b76e79;
+  font-size: 20px;
+}
+.cake1_para{
+  margin-left:10px ;
+  font-size: 17px;
+  margin-right: 10px;
+  line-height: 25px;
+
+}
+.cake1{
+  padding:20px;
+  padding-right: 10px;
+}
+.title h2 {
+  margin-left: 30px;
+  font-size: 38px;
+  margin-top:-3%;
+  margin-bottom:3%;
+  color:#b76e79;
+  font-weight: 600;
+  }
+  .categories {                
+    align-items: center;
+    width: 90%;
+    margin:0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0%;
+  }
+  .categories .category {
+    width: 25%;
+    margin: 0%;
+    margin-bottom: 30px;
+  }
+  .categories .category .image {
+  padding-left: 0%;
+  }
+  .categories a .c-name {
+  font-size: 18px;
+  }
+  .butter{
+    display: block;
+  }
+  .categories-secp {
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 5%;
+  }
+  .title-bar-o {
+      width: 98%;
+      margin:0px auto;
+      padding-top:3%;
+  }
+  .candy1{
+    display: none;
+  }
+  .candy{
+    display:block;
+  }
+  .candy{
+  width: 95%;
+  margin: 0px auto;
+  display: flex;
+  padding-bottom: 60px;
+  
+  }
+  .occasion{
+  background-color: #efd9d9;
+  width: 95%;
+  margin: 0px auto;
+  box-shadow: 5px 5px 5px #ccc;
+  margin: 0px 10px;
+  padding-left:7px;
+  padding-top: 4px;
+  }
+  .productsDetail img{
+  width: 90%;
+  margin: 0%; 
+  margin: 10px 8px;
+  text-decoration: none;
+  }
+  .productsDetail h3{
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  padding: 12px;
+  text-decoration: none;
+  }
+  .productsDetail a{
+    text-decoration: none;
+      }
+
+      .footer{
+        background-color: #f9f5f0;
+      }
+      .footer_width{
+        width: 85%;
+        margin: 0px auto;
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      #img_logo{
+        width:100px;
+        padding-top: 20px;
+      }
+      .sp-before{
+        font-size: 16px;
+      }
+      .kisses-cake{
+        display: block;
+      }
+      .kisses-stay{
+      display: block;
+      }
+      .kisses{
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration-line: underline;
+        text-decoration-color: #b76e79;
+       
+      }
+      
+      .footer-data-box1{
+        padding-top: 60%;
+      }
+      .links{
+        line-height:35px;
+      }
+      .links li a{
+        color:#000;
+        font-size: 18px;   
+      }
+      .last_footer{
+      background-color: #000000;
+      text-align: center;
+      color: #b76e79;
+      font-size: 12px;
+      padding: 8px;
+      }
+      .last_footer{
+          font-size: 15px;
+        }
+}
+  
